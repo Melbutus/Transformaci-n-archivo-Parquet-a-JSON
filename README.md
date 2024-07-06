@@ -95,6 +95,7 @@ except FileNotFoundError:
     print(f"El archivo no se encuentra en la ruta especificada: {ruta_parquet}")
 except Exception as e:
     print(f"Ha ocurrido un error: {e}")
+```
 
-### Linkedin
+ **Linkedin**
 https://www.linkedin.com/in/melanie-butus-7013551a9/
