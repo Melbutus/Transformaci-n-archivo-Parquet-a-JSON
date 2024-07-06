@@ -13,7 +13,9 @@
 #### Convertir el DataFrame a JSON:  utilizando la orientación por registros (records) y añadiendo indentación (indent=4) para mejorar la legibilidad.
 ´´´json_data = df.to_json(orient='records', lines=True, indent=4)
 ´´´
-####Guardar el JSON en un archivo:
-´´´with open(ruta_json, 'w') as json_file:
-    json_file.write(json_data)
-´´´
+5. **Guardar el JSON en un archivo:**
+
+    ```python
+    with open(ruta_json, 'w') as json_file:
+        json_file.write(json_data)
+    ```
